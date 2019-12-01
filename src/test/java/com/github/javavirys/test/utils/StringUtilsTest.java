@@ -40,7 +40,7 @@ public class StringUtilsTest {
     public void testSplitQueryWithInvalidUrls() throws UnsupportedEncodingException {
         for (String invalid_url : INVALID_URLS) {
             Map<String, String> map = StringUtils.splitQuery(invalid_url);
-            assertThat(map.isEmpty(), is(false));
+            assertThat(map.isEmpty(), is(true));
         }
     }
 }
