@@ -4,3 +4,4 @@ jdk:
 
 before_script:
   - git clone https://github.com/javavirys/WMICInformation.git
+  - ls
